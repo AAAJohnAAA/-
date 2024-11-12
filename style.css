@@ -1,0 +1,17 @@
+#chart-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+#radar-chart-container {
+    display: flex;
+    justify-content: center; 
+    padding-top: 20px;
+}
+
+#patch {
+    display: flex;
+    justify-content: center; 
+    padding-top: 20px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <p style="text-align: center; font-size: 16px; margin: 20px 0;">
+        如有问题请先查看README文件。
+    </p>
+    <div id="chart-container">
+        <svg id="sankey"></svg>
+    </div>
+    
+    <p style="text-align: center; font-size: 16px; margin: 20px 0;">
+        问题一说明：这是本班生源统计图，左侧为桑葚图，右侧为折线图。
+    </p>
+
+    <div id="radar-chart-container">
+        <svg id="radar-chart"></svg>
+    </div>
+    
+    <p style="text-align: center; font-size: 16px; margin: 20px 0;">
+        问题二说明：这是上次作业雷达图的改进重绘，添加了折线宽度对总得分的映射，但是在总分差距不大时，映射效果不明显。
+    </p>
+
+
+    <div id="patch">
+        <svg id="bar-chart"></svg>
+    </div>
+
+
+    <p style="text-align: center; font-size: 16px; margin: 20px 0;">
+        于是我们改用堆叠柱状图描述数据。
+    </p>
+
+    <script src="task1script.js"></script>
+    <script src="task2script.js"></script>
+    <script src="patch.js"></script>
+</body>
+</html>
